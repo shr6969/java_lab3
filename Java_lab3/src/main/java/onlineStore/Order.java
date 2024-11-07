@@ -8,7 +8,7 @@ public class Order {
     private Customer customer;
     private List<Product> products = new ArrayList<>();
     private double totalAmount;
-    private String orderDate;  // Замінили LocalDate на String
+    private String orderDate; 
 
     // Конструктор через Builder
     public static class Builder {
